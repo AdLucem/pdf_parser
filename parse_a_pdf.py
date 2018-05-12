@@ -6,6 +6,7 @@ the text under each title, in JSON format"""
 import PyPDF2
 import sys
 
+
 class Tree:
 
     """Class to implement a title tree"""
@@ -93,13 +94,22 @@ def flatten(ls):
     return ls_new
 
 
-def return_title_graph(reader_object) :
+def return_title_graph(title):
 
     """Creating a graph of PDF titles
-    and returning root node of the 
+    and returning root node of the
     graph"""
 
+    # creating a pdf file object
+    pdfFileObj = open(title, 'rb')
+
+    # creating a pdf reader object
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+
     outlines = pdfReader.getOutlines()
+
+    # closing the file object
+    pdfFileObj.close()
 
     for i in range(10):
         outlines = flatten(outlines)
@@ -119,62 +129,96 @@ def return_title_graph(reader_object) :
     root = Tree(0, [])
     make_tree(matrix, root, root, 0)
 
-    #return statement
+    # return statement
     return root
+
+
+def return_text_by_page(title, page_number):
+
+    """Takes a particular page of the PDF file and
+    returns text on that particular page"""
+
+    # creating a pdf file object
+    pdfFileObj = open(title, 'rb')
+
+    # creating a pdf reader object
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+
+    # printing number of pages in pdf file
+    print(pdfReader.numPages)
+
+    # creating a page object
+    pageObj = pdfReader.getPage(page_number)
+
+    # extracting text from page
+    text = pageObj.extractText()
+
+    # closing the pdf file object
+    pdfFileObj.close()
+
+    # return statement
+    return text
+
+
+def return_text_by_title(title, text_title):
+
+    """Takes a particular heading of the PDF file and
+    returns text belonging under that particular heading"""
+
+    # creating a pdf file object
+    pdfFileObj = open(title, 'rb')
+
+    # creating a pdf reader object
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+
+    # fetching number of pages in the pdf file
+    num_pages = pdfReader.numPages
+
+    for i in range(7, num_pages + 1):
+
+        # creating a page object
+        pageObj = pdfReader.getPage(i)
+
+        # extracting text from page
+        text = pageObj.extractText()
+
+        # checking if title within text
+        if text_title in text:
+
+            # see if title on single line
+            
+            break
+
+    # closing the pdf file object
+    pdfFileObj.close()
+
+    # return statement
+    return text
+
 
 # __main__
 
-title = sys.argv[1]
 
-# creating a pdf file object
-pdfFileObj = open(title, 'rb')
+if len(sys.argv) < 3:
+    print "Usage:"
+    print "python parse_a_pdf.py ",
+    print "<path to pdf file> ",
+    print "<text/titles> <page number?> "
 
-# creating a pdf reader object
-pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+else:
+    title = sys.argv[1]
 
-# printing number of pages in pdf file
-# print(pdfReader.numPages)
+    if sys.argv[2] == "titles":
+        print Tree.display(return_title_graph(title))
 
-# creating a page object
-pageObj = pdfReader.getPage(3)
+    elif sys.argv[2] == "text-by-page":
+        print return_text_by_page(title, int(sys.argv[3]))
 
-outlines = pdfReader.getOutlines()
+    elif sys.argv[2] == "text-by-title":
+        print return_text_by_title(title, sys.argv[3])
 
-for i in range(10):
-    outlines = flatten(outlines)
-
-# print(outlines)
-
-# extracting text from page
-# print(pageObj.extractText())
-
-matrix = []
-
-# making a matrix of titles/serial numbers
-for dest in outlines:
-    row = []
-    title_split = dest.title.split(" ")
-    row.append(map(lambda x: int(x), title_split[0].split(".")))
-    title_split.pop(0)
-    row.append(title_split)
-    matrix.append(row)
-
-# test print
-# print(matrix)
-
-# making a tree out of above matrix
-root = Tree(0, [])
-make_tree(matrix, root, root, 0)
-
-# manually removing stopwords from each node
-Tree.manual_edit(root)
-
-# test print above matrix
-# for element in matrix:
-#   print element[0]," --- ",
-#   print element[1]
-
-# making a tree out of above matrix
-
-# closing the pdf file object
-pdfFileObj.close()
+    else:
+        print "Usage:"
+        print "python parse_a_pdf.py ",
+        print "<path to pdf file> ",
+        print "<text/titles> <page number?> "

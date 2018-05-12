@@ -1,4 +1,4 @@
-#!/home/ciel/Gitlab/documentation-QA-system/pdf_parser/venv/bin/python
+#!/home/ciel/Github/pdf_parser/venv/bin/python
 
 import sys
 import getopt

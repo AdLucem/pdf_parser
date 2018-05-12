@@ -1,4 +1,4 @@
-#!/home/ciel/Gitlab/documentation-QA-system/pdf_parser/venv/bin/python2.7
+#!/home/ciel/Github/pdf_parser/venv/bin/python2.7
 #
 #  latin2ascii.py - converts latin1 characters into ascii.
 #

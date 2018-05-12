@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ciel/Gitlab/documentation-QA-system/pdf_parser/venv"
+VIRTUAL_ENV="/home/ciel/Github/pdf_parser/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
