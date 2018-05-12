@@ -4,7 +4,7 @@ the text under each title, in JSON format"""
 
 # importing required modules
 import PyPDF2
-
+import sys
 
 class Tree:
 
@@ -124,8 +124,10 @@ def return_title_graph(reader_object) :
 
 # __main__
 
+title = sys.argv[1]
+
 # creating a pdf file object
-pdfFileObj = open('ipms_user_handbook.pdf', 'rb')
+pdfFileObj = open(title, 'rb')
 
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
