@@ -1,5 +1,5 @@
 # pdf_parser
-A library to parse a PDF to certain text-processing-amenable formats.
+A library to parse a PDF to certain text-processing-amenable formats and also clean the resulting data.
 
 ## Usage:
 
@@ -13,3 +13,10 @@ A library to parse a PDF to certain text-processing-amenable formats.
 ```bash
 ./run.sh <path_to_html_version_of_pdf>
 ```
+
+## TODO
+
+- Write function to combine bulleted points into a single span of text under the original heading. Refer to:
+
+`split_text_by_title.integrate_bullet_points(data)`
+
