@@ -5,6 +5,8 @@ the text under each title, in JSON format"""
 # importing required modules
 import PyPDF2
 import sys
+# we're gonna be using beautifulSoup to extract text of the body
+from bs4 import BeautifulSoup
 
 
 class Tree:
@@ -160,40 +162,19 @@ def return_text_by_page(title, page_number):
     return text
 
 
-def return_text_by_title(title, text_title):
+def return_body(title):
 
     """Takes a particular heading of the PDF file and
     returns text belonging under that particular heading"""
 
-    # creating a pdf file object
-    pdfFileObj = open(title, 'rb')
+    with open(title, 'r+') as f:
 
-    # creating a pdf reader object
-    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        soup = BeautifulSoup(f, 'html.parser')
 
-    # fetching number of pages in the pdf file
-    num_pages = pdfReader.numPages
+        body_text = soup.body
 
-    for i in range(7, num_pages + 1):
-
-        # creating a page object
-        pageObj = pdfReader.getPage(i)
-
-        # extracting text from page
-        text = pageObj.extractText()
-
-        # checking if title within text
-        if text_title in text:
-
-            # see if title on single line
-            
-            break
-
-    # closing the pdf file object
-    pdfFileObj.close()
-
-    # return statement
-    return text
+        with open("temp/text.txt", "w+") as f2:
+            f2.write(str(body_text))
 
 
 # __main__
@@ -203,7 +184,7 @@ if len(sys.argv) < 3:
     print "Usage:"
     print "python parse_a_pdf.py ",
     print "<path to pdf file> ",
-    print "<text/titles> <page number?> "
+    print "<titles/page/text> <page number?> "
 
 else:
     title = sys.argv[1]
@@ -211,14 +192,14 @@ else:
     if sys.argv[2] == "titles":
         print Tree.display(return_title_graph(title))
 
-    elif sys.argv[2] == "text-by-page":
+    elif sys.argv[2] == "page":
         print return_text_by_page(title, int(sys.argv[3]))
 
-    elif sys.argv[2] == "text-by-title":
-        print return_text_by_title(title, sys.argv[3])
+    elif sys.argv[2] == "text":
+        print return_body(title)
 
     else:
         print "Usage:"
         print "python parse_a_pdf.py ",
         print "<path to pdf file> ",
-        print "<text/titles> <page number?> "
+        print "<titles/page/text> <page number?> "
