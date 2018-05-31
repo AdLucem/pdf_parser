@@ -143,7 +143,7 @@ obj = []
 
 for i in text_title_list:
     d = {}
-    d[re.sub('[<].*?[>]', '', i[0])] = re.sub('[<].*?[>]', '', i[1])
+    d[re.sub('[<].*?[>]', ' ', i[0])] = re.sub('[<].*?[>]', ' ', i[1])
     obj.append(d)
 
 obj = clean(obj)
