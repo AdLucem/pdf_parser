@@ -2,3 +2,4 @@ pdfminer
 PyPDF2
 nltk
 bs4
+
