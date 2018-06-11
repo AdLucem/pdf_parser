@@ -4,6 +4,7 @@ and returns:
 content in file + children of file + parent heading of file
 (2) An index of headings and filepaths representing the file system"""
 
+
 import unicodedata
 from cleaners import clean
 from utility_functions import get_titles
@@ -68,11 +69,15 @@ def get_text_under_title(content_file, title, next_title, pointer):
 def get_text_by_titles(content_file, title_list):
 
     """ Takes the content file and a flat list of titles and
-    associates each title with a span of text"""
+    associates each title with a span of text
+    Args:
+        <text file> :: String 
+        <list of titles> :: [String]"""
+
     text_vs_title = []
 
     # hopefully these garbage strings are nowhere in the file
-    title_list.append(('-1000000007', ['-1000000009]'], '-1000000029'))
+    title_list.append(('-1343#$%^7', ['-1$@#$%#$@@9]'], '-102342345*&$#29'))
 
     pointer = 0
 

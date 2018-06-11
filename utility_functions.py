@@ -1,4 +1,4 @@
-"""A few utility functions for parsing a pdf"""
+"""A few utility functions that don't go anywhere else"""
 
 
 import PyPDF2

@@ -1,4 +1,5 @@
-"""A class to build and display a tree."""
+"""A class to build and display a tree of text titles
+from the table of contents of a pdf"""
 
 
 class Tree:
