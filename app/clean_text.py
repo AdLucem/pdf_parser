@@ -1,31 +1,18 @@
-"""Cleans the text document so that it is ready to be processed"""
-
+"""Takes a text file (i.e: pdf converted to text)
+and removes unnecessary or 'dirtying' data"""
 
 import os
-from build_title_tree import return_title_graph, Tree, flatten
+from get_titles import get_flat_title_list
 from nltk import word_tokenize
 
 # =============================== FUNCTIONS =============================
 
 
-def get_titles(filename):
-
-    """Fetch a list of titles in the format:
-    (<serial number>, <list of tokens in title>, <title without serial number>)
-    from the original pdf file"""
-
-    graph = return_title_graph(filename)
-    ls = Tree.tree_to_list(graph)
-    ls = flatten(ls)
-    ls.pop(0)
-    return ls
-
-
-def get_lines_to_remove():
+def get_lines_to_remove(lines_to_remove):
 
     """Gets the user-provided list of lines to remove"""
 
-    with open('../lines_to_remove.txt', 'r+') as f:
+    with open(lines_to_remove, 'r+') as f:
         return f.readlines()
 
 
@@ -55,24 +42,23 @@ def include(line, remove_anyway, lines_to_remove):
     return True
 
 
-def clean(filename):
+def clean(file_text, file_pdf, lines_to_remove):
 
     print("Cleaning the messy text file...")
 
     """To strip extraneous data- i.e
     (1) Header and formatting
     (2) Table of contents
-    (4) Page numbers
+    (3) Page numbers
     from text file"""
 
-    relative_filepath = '../' + filename
-    cleaned_file = '../cleaned_' + filename
+    cleaned_file = '../cleaned_searchdata.txt'
 
     f = open(cleaned_file, 'w+')
     f.close()
 
     # get the list of titles
-    titles_list = get_titles(relative_filepath.rstrip('txt') + 'pdf')
+    titles_list = get_flat_title_list(file_pdf)
 
     # get the value of line containing first title
     first_title = [titles_list[0][0]] + titles_list[0][1]
@@ -81,12 +67,12 @@ def clean(filename):
     remove_anyway = True
 
     # get user-defined list of lines to remove
-    lines_to_remove = get_lines_to_remove()
+    lines_to_remove = get_lines_to_remove(lines_to_remove)
 
     with open(cleaned_file, 'a+') as cf:
-        with open(relative_filepath, 'r+') as f:
+        with open(file_text, 'r+') as f:
 
-            size = os.path.getsize(os.path.abspath(relative_filepath))
+            size = os.path.getsize(os.path.abspath(file_text))
             pointer = 0
 
             # while pointer position is not beyond EOF
@@ -105,5 +91,5 @@ def clean(filename):
                 # get updated position of the pointer
                 pointer = f.tell()
 
-    # return the filename of the cleaned file
+    # return the filepath to the cleaned file
     return cleaned_file

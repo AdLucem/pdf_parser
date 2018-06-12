@@ -4,14 +4,11 @@ and returns:
 content in file + children of file + parent heading of file
 (2) An index of headings and filepaths representing the file system"""
 
-
-import subprocess
 import os
 import json
-import re
+# import re # for test
 from fuzzywuzzy import fuzz
-from cleaners import clean
-from utility_functions import get_titles
+from get_titles import get_flat_title_list
 
 # ======================== FUNCTIONS ===============================
 
@@ -79,15 +76,16 @@ def get_text_under_title(content_file, title, next_title, pointer, fsize):
 
             pointer_start = f.tell()
 
-            #print("Indexing text under: " + title[0] + " " + title[2])
-            #print("Indexing text before: " + next_title[0] + " " + next_title[2])
+            print("Indexing text under: " + title[0] + " " + title[2])
+            # print("Indexing text before: " +
+            # next_title[0] + " " + next_title[2])
 
             endflag = False
             while not fuzzy_match(next_title, line):
 
-                if re.search('[1-9][.]', line):
-                    print(next_title[0] + " " + next_title[2])
-                    print()
+                # if re.search('[1-9][.]', line):  # test
+                #    print(next_title[0] + " " + next_title[2])
+                #   print()
 
                 if f.tell() < fsize:
                     line = f.readline()
@@ -149,33 +147,22 @@ def get_text_by_titles(content_file, title_list):
     return text_vs_title
 
 
-def process(file_pdf):
+def index_text_by_title(file_cleaned, file_pdf):
 
     """To process all the data in <filename>
     and return a JSON object of text indexed by title"""
 
-    print("Converting pdf to text...")
-
-    subprocess.call(['pdftotext', '-layout', '-nopgbrk', file_pdf])
-
-    file_text = file_pdf.rstrip('pdf') + 'txt'
-
-    print("""Cleaning text file-
-            removing table of contents, page numbers, footers...""")
-
-    stripped_file = clean(file_text)
-
     print("Fetching titles...")
 
-    ls = get_titles('../' + file_pdf)
+    ls = get_flat_title_list(file_pdf)
 
     print("Titles fetched...")
 
-    text_indexed_by_title = get_text_by_titles(stripped_file, ls)
+    text_indexed_by_title = get_text_by_titles(file_cleaned, ls)
 
     print("Text indexed by title...")
 
-    jsonfile = '../' + file_pdf.rstrip('pdf') + 'json'
+    jsonfile = '../searchdata.json'
     with open(jsonfile, 'w+') as f:
         jsondata = json.dumps(text_indexed_by_title)
         f.write(jsondata)
