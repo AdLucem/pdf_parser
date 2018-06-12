@@ -112,4 +112,18 @@ def get_titles(filename):
     graph = return_title_graph(filename)
     ls = Tree.tree_to_list(graph)
     ls = flatten(ls)
-    return ls
+
+    ln = []
+
+    # normalise title encoding
+    for (sno, title_tokens, title) in ls:
+        ln.append((nmls(sno), title_tokens, nmls(title)))
+
+    ln.pop(0)
+    return ln
+
+
+def nmls(text):
+    """To avoid funny encoding errors"""
+    return text.encode('ascii', 'ignore')
+

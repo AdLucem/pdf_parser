@@ -5,13 +5,17 @@ from documentify import process
 import sys
 
 
-# driver function
-if __name__ == "__main__":
-
-    # pdf_file = raw_input("Enter filename of pdf file.\n")
+def convert():
+    """Main function"""
 
     if len(sys.argv) != 2:
         print("""Usage:
                     ./run.sh <path to pdf file>""")
     else:
         process(sys.argv[1])
+
+
+# driver function for the command line implementation
+if __name__ == "__main__":
+
+    convert()

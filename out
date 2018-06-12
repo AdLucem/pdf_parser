@@ -1,18 +1,1157 @@
-Beginning processing...
-Cleaning the messy HTMLized file...
-Removed all header and styling data...
-Removed table of contents...
-Tags removed...
-Cleaning done! Cleaned file: ../cleaned_file.txt
-HTML file cleaned...
-[[[[[('1.1.1.1', [u'Deck', u'Mounted', u'Consoles'], u'Deck Mounted Consoles')], [('1.1.1.2', [u'Portable', u'Operator', u'Units', u'(', u'POU', u')'], u'Portable Operator Units (POU)')], [('1.1.1.3', [u'Bulkhead', u'Mounted', u'Consoles'], u'Bulkhead Mounted Consoles')], [('1.1.1.4', [u'VME', u'Remote', u'Terminal', u'Units'], u'VME Remote Terminal Units')], [('1.1.1.5', [u'Network'], u'Network')]], [[('1.1.2.2', [u'CORE'], u'CORE')], [('1.1.2.2', [u'CAPS'], u'CAPS')], [('1.1.2.3', [u'OBTS'], u'OBTS')], [('1.1.2.4', [u'HMI'], u'HMI')]], [('1.1.3', [u'Command', u'flow', u'from', u'operator', u'to', u'equipment', u'&', u'feedback'], u'Command flow from operator to equipment & feedback')]], [('1.2', [u'Ship', u'Systems', u'Controlled', u'by', u'IPMS'], u'Ship Systems Controlled by IPMS')]], [[[[('2.2.1.1', [u'Login', u'procedure'], u'Login procedure')], [('2.2.1.2', [u'Login', u'information'], u'Login information')]], [('2.2.2', [u'Station', u'in', u'Control'], u'Station in Control')], [('2.2.3', [u'OBTS', u'Sessions'], u'OBTS Sessions')], [('2.2.4', [u'Logout'], u'Logout')], [('2.2.5', [u'Exiting', u'the', u'IPMS'], u'Exiting the IPMS')]], [[('2.2.2', [u'Display', u'Manager'], u'Display Manager')], [('2.2.2', [u'Event', u'Viewer'], u'Event Viewer')], [('2.2.3', [u'Trending'], u'Trending')], [('2.2.4', [u'Data', u'Logger'], u'Data Logger')]], [('2.3', [u'Mimic', u'Pages'], u'Mimic Pages')], [('2.4', [u'Maintenance', u'Window', u'and', u'RTU', u'BITE', u'display', u'.'], u'Maintenance Window and RTU BITE display.')], [('2.5', [u'Incident', u'plotting', u'&', u'key', u'Battle', u'Damage', u'Control', u'System', u'(', u'BDCS', u')', u'features'], u'Incident plotting & key Battle Damage Control System (BDCS) features')], [('2.6', [u'Index', u'Page'], u'Index Page')]], [[[[[[('3.3.1.1.2.1', [u'Local/Remote', u'Control'], u'Local/Remote Control')], [('3.3.1.1.2.2', [u'Automatic', u'Mode'], u'Automatic Mode')], [('3.3.1.1.2.3', [u'Semi-Automatic', u'Mode'], u'Semi-Automatic Mode')], [('3.3.1.1.2.4', [u'Compound', u'Modes'], u'Compound Modes')]], [[[('3.3.1.1.2.2.1', [u'Emergency', u'Mode'], u'Emergency Mode')]]], [[[('3.3.1.1.3.3.1', [u'Emergency', u'Control', u'Mode'], u'Emergency Control Mode')]]], [('3.3.1.1.4', [u'Propulsion', u'drive', u'mode'], u'Propulsion drive mode')], [('3.3.1.1.5', [u'PCL', u'(', u'Propulsion', u'Control', u'Lever', u')'], u'PCL (Propulsion Control Lever)')], [('3.3.1.1.6', [u'Pitch', u'demand'], u'Pitch demand')], [('3.3.1.1.7', [u'Engine', u'speed', u'demand'], u'Engine speed demand')], [('3.3.1.1.8', [u'Propulsion', u'schedules'], u'Propulsion schedules')], [('3.3.1.1.9', [u'Propulsion', u'setpoints'], u'Propulsion setpoints')], [('3.3.1.1.10', [u'Propulsion', u'calculated', u'points'], u'Propulsion calculated points')], [('3.3.1.1.11', [u'System', u'wide', u'data', u'(', u'SWD', u')'], u'System wide data (SWD)')]], [[('3.3.1.3.3', [u'PSC', u'Component', u'Initialization'], u'PSC Component Initialization')]], [[[('3.3.1.4.4.1', [u'ME', u'State', u'Initialization'], u'ME State Initialization')], [[('3.3.1.4.4.2.2', [u'Pre-start', u'function'], u'Pre-start function')], [('3.3.1.4.4.2.2', [u'Auto-start', u'sequence'], u'Auto-start sequence')], [('3.3.1.4.4.2.3', [u'Stop', u'sequence'], u'Stop sequence')], [('3.3.1.4.4.2.4', [u'Cooldown', u'sequence'], u'Cooldown sequence')], [('3.3.1.4.4.2.5', [u'Safety', u'stop', u'sequence'], u' Safety stop sequence')], [('3.3.1.4.4.2.6', [u'Remote', u'inhibition'], u'Remote inhibition')], [('3.3.1.4.4.2.7', [u'Fuel', u'consumption', u'and', u'endurance', u'calculations'], u'Fuel consumption and endurance calculations')]]], [[('3.3.1.4.2.2', [u'Motor', u'driven', u'lube', u'oil', u'pump', u'start', u'/', u'stop', u'from', u'IPMS'], u'Motor driven lube oil pump start / stop from IPMS')], [('3.3.1.4.2.2', [u'Motor', u'driven', u'sea', u'water', u'pump', u'start', u'/', u'stop', u'from', u'IPMS'], u'Motor driven sea water pump start / stop from IPMS')], [('3.3.1.4.2.3', [u'Hydraulic', u'coupling', u'engage', u'and', u'disengage', u'sequence'], u'Hydraulic coupling engage and disengage sequence')], [('3.3.1.4.2.4', [u'Shaft', u'line', u'turning', u'authorization', u'sequence'], u'Shaft line turning authorization sequence')]], [[('3.3.1.4.3.3', [u'Drive', u'mode', u'changeover', u'logic'], u'Drive mode changeover logic')], [('3.3.1.4.3.2', [u'Operating', u'mode', u'logic'], u'Operating mode logic')], [[[('3.3.1.4.3.3.3.1', [u'Shaft', u'mode', u'changeovers', u'permissives'], u' Shaft mode changeovers permissives')], [('3.3.1.4.3.3.3.2', [u'Shaft', u'free', u'to', u'one', u'ME', u'driving', u'the', u'shaft'], u' Shaft free to one ME driving the shaft')], [('3.3.1.4.3.3.3.3', [u'One', u'ME', u'driving', u'the', u'shaft', u'to', u'shaft', u'free'], u' One ME driving the shaft to shaft free')], [('3.3.1.4.3.3.3.4', [u'Shaft', u'free', u'to', u'both', u'ME', u'\u2019', u's', u'driving', u'the', u'shaft'], u' Shaft free to both ME\u2019s driving the shaft')], [('3.3.1.4.3.3.3.5', [u'Both', u'ME', u'\u2019', u's', u'driving', u'the', u'shaft', u'to', u'shaft', u'free'], u'Both ME\u2019s driving the shaft to shaft free')], [('3.3.1.4.3.3.3.6', [u'Both', u'ME', u'\u2019', u's', u'driving', u'to', u'1', u'ME', u'driving', u'the', u'shaft'], u'Both ME\u2019s driving to 1 ME driving the shaft')], [('3.3.1.4.3.3.3.7', [u'One', u'ME', u'driving', u'the', u'shaft', u'to', u'both', u'MEs', u'driving', u'the', u'shaft'], u' One ME driving the shaft to both MEs driving the shaft')]], [[('3.3.1.4.3.3.2.2', [u'Shafts', u'free', u'(', u'0', u'+', u'0', u')', u'to', u'1', u'ME', u'driving', u'per', u'shaft', u'(', u'1', u'+', u'1', u')'], u'Shafts free (0 + 0) to 1 ME driving per shaft (1 + 1)')], [('3.3.1.4.3.3.2.2', [u'1', u'ME', u'driving', u'per', u'shaft', u'(', u'1', u'+', u'1', u')', u'to', u'shafts', u'free', u'(', u'0', u'+', u'0', u')'], u' 1 ME driving per shaft (1 + 1) to shafts free (0 + 0)')], [('3.3.1.4.3.3.2.3', [u'Shafts', u'free', u'(', u'0', u'+', u'0', u')', u'to', u'2', u'ME', u'driving', u'per', u'shaft', u'(', u'2', u'+', u'2', u')'], u'Shafts free (0 + 0) to 2 ME driving per shaft (2 + 2)')], [('3.3.1.4.3.3.2.4', [u'2', u'MEs', u'Driving', u'Per', u'Shaft', u'(', u'2', u'+', u'2', u')', u'to', u'Shafts', u'Free', u'(', u'0', u'+', u'0', u')'], u' 2 MEs Driving Per Shaft (2 + 2) to Shafts Free (0 + 0)')], [('3.3.1.4.3.3.2.5', [u'2', u'MEs', u'Driving', u'(', u'2', u'+', u'2', u')', u'to', u'1', u'ME', u'Driving', u'(', u'1', u'+', u'1', u')', u'Per', u'Shaft'], u'2 MEs Driving (2 + 2) to 1 ME Driving (1 + 1) Per Shaft')], [('3.3.1.4.3.3.2.6', [u'1', u'ME', u'Driving', u'(', u'1', u'+', u'1', u')', u'to', u'2', u'MEs', u'Driving', u'(', u'2', u'+', u'2', u')', u'Per', u'Shaft'], u'1 ME Driving (1 + 1) to 2 MEs Driving (2 + 2) Per Shaft')]]]]], [[[[('3.3.1.5.5.1.1', [u'Schedule', u'ME', u'speed', u'demand'], u'Schedule ME speed demand')], [('3.3.1.5.5.1.2', [u'Schedule', u'shaft', u'speed', u'demand'], u'Schedule shaft speed demand')], [('3.3.1.5.5.1.3', [u'ME', u'transient', u'control', u'(', u'Pitch/PCL', u'opposite', u'sense', u')'], u'ME transient control (Pitch/PCL opposite sense)')], [('3.3.1.5.5.1.4', [u'Changeover', u'demand', u'limits'], u'Changeover demand limits')], [('3.3.1.5.5.1.5', [u'ME', u'demand', u'rate', u'limit', u'control'], u'ME demand rate limit control')], [('3.3.1.5.5.1.6', [u'ME', u'speed', u'control'], u'ME speed control')], [('3.3.1.5.5.1.7', [u'Output', u'ME', u'speed', u'demand', u'and', u'rate', u'to', u'the', u'VRTU'], u'Output ME speed demand and rate to the VRTU')]], [[('3.3.1.5.5.2.2', [u'ME', u'Fuel', u'Rack', u'error', u'Function'], u'ME Fuel Rack error Function')], [('3.3.1.5.5.2.2', [u'Schedule', u'pitch', u'demand'], u'Schedule pitch demand')], [('3.3.1.5.5.2.3', [u'Shaft', u'power', u'tendency', u'function'], u'Shaft power tendency function')], [('3.3.1.5.5.2.4', [u'ME', u'load', u'control'], u'ME load control')], [('3.3.1.5.5.2.5', [u'Load', u'stability', u'control'], u'Load stability control')], [('3.3.1.5.5.2.6', [u'Pitch', u'set', u'to', u'zero'], u'Pitch set to zero')], [('3.3.1.5.5.2.7', [u'Load', u'reduction', u'control'], u' Load reduction control')], [('3.3.1.5.5.2.8', [u'Pitch', u'rate', u'limit', u'control'], u'Pitch rate limit control')], [('3.3.1.5.5.2.9', [u'Output', u'pitch', u'demand', u'and', u'pitch', u'rate', u'to', u'CPPC', u'CSC'], u'Output pitch demand and pitch rate to CPPC CSC')]]], [[[('3.3.1.5.2.2.1', [u'Schedule', u'ME', u'speed', u'demand'], u'Schedule ME speed demand')], [('3.3.1.5.2.2.2', [u'ME', u'transient', u'control', u'(', u'Pitch/PCL', u'opposite', u'sense', u')'], u'ME transient control (Pitch/PCL opposite sense)')], [('3.3.1.5.2.2.3', [u'Changeover', u'demand', u'limits'], u'Changeover demand limits')], [('3.3.1.5.2.2.4', [u'ME', u'demand', u'rate', u'limit', u'control'], u'ME demand rate limit control')], [('3.3.1.5.2.2.5', [u'ME', u'speed', u'control'], u'ME speed control')], [('3.3.1.5.2.2.6', [u'Output', u'ME', u'speed', u'demand', u'and', u'rate', u'to', u'the', u'VRTU'], u'Output ME speed demand and rate to the VRTU')]], [[('3.3.1.5.2.2.2', [u'Schedule', u'pitch', u'demand'], u'Schedule pitch demand')], [('3.3.1.5.2.2.2', [u'ME', u'load', u'control'], u'ME load control')], [('3.3.1.5.2.2.3', [u'Load', u'stability', u'control'], u'Load stability control')], [('3.3.1.5.2.2.4', [u'Pitch', u'set', u'to', u'zero'], u'Pitch set to zero')], [('3.3.1.5.2.2.5', [u'Pitch', u'rate', u'limit', u'control'], u'Pitch rate limit control')], [('3.3.1.5.2.2.6', [u'Load', u'reduction', u'control'], u'Load reduction control')], [('3.3.1.5.2.2.7', [u'Output', u'pitch', u'demand', u'and', u'pitch', u'rate', u'to', u'CPPC', u'CSC'], u'Output pitch demand and pitch rate to CPPC CSC')]]]]], [[[('3.3.2.2.1', [u'EOT', u'Levers'], u'EOT Levers')], [('3.3.2.2.2', [u'Software', u'EOT'], u'Software EOT')], [[('3.3.2.2.3.3', [u'SIC', u'Transfer', u'between', u'Two', u'EOT'], u'SIC Transfer between Two EOT')], [('3.3.2.2.3.2', [u'SIC', u'Transfer', u'from', u'EOT', u'to', u'HMI'], u'SIC Transfer from EOT to HMI')], [('3.3.2.2.3.3', [u'SIC', u'Transfer', u'from', u'HMI', u'to', u'EOT'], u'SIC Transfer from HMI to EOT')]]], [('3.3.2.2', [u'EOT', u'Calculated', u'Points'], u'EOT Calculated Points')], [('3.3.2.3', [u'Lever', u'Processing'], u'Lever Processing')], [('3.3.2.4', [u'HMI', u'EOT', u'Processing'], u'HMI EOT Processing')]], [[('3.3.3.3', [u'CPP', u'Proportional', u'Valve', u'Control'], u'CPP Proportional Valve Control')], [('3.3.3.2', [u'Hydraulic', u'Pump', u'Control'], u'Hydraulic Pump Control')], [('3.3.3.3', [u'Shaft', u'speed', u'<', u'60', u'rpm', u'command'], u'Shaft speed<60 rpm command')], [('3.3.3.4', [u'CPP', u'Control', u'System', u'Failure'], u'CPP Control System Failure')], [('3.3.3.5', [u'CPP', u'Pitch', u'Feedback', u'Failure'], u'CPP Pitch Feedback Failure')], [('3.3.3.6', [u'Shaft', u'brake', u'control'], u'Shaft brake control')]], [[[[[[('3.3.4.4.1.1.1.1', [u'All', u'isolation', u'valves', u'are', u'opened'], u'All isolation valves are opened')], [('3.3.4.4.1.1.1.2', [u'Zone', u'1', u'Isolated'], u'Zone 1 Isolated')], [('3.3.4.4.1.1.1.3', [u'Zone', u'1', u',', u'2', u'&', u'ZONE', u'3', u',', u'4', u'Isolated'], u'Zone 1, 2 & ZONE 3, 4 Isolated')], [('3.3.4.4.1.1.1.4', [u'Zone', u'4', u'is', u'Isolated'], u'Zone 4 is Isolated')]]], [('3.3.4.4.1.2', [u'Manual', u'Mode'], u'Manual Mode')], [[('3.3.4.4.1.3.3', [u'Pump', u'Control'], u'Pump Control')]]]], [[[('3.3.4.2.2.1', [u'Gas', u'tight', u'state'], u'Gas tight state')]]], [[[('3.3.4.3.3.1', [u'Fire', u'zones'], u' Fire zones')], [('3.3.4.3.3.2', [u'Sections'], u'Sections')], [('3.3.4.3.3.3', [u'Complete'], u'Complete')]]], [[[('3.3.4.4.4.1', [u'Auto', u'Mode'], u'Auto Mode')], [('3.3.4.4.4.2', [u'Manual', u'Mode'], u'Manual Mode')], [('3.3.4.4.4.3', [u'Panel', u'mode'], u'Panel mode')]]], [[('3.3.4.5.5', [u'Pump', u'Control'], u'Pump Control')]], [[('3.3.4.6.6', [u'Pump', u'Control'], u'Pump Control')]], [[('3.3.4.7.7', [u'Pump', u'Control'], u'Pump Control')]], [[('3.3.4.8.8', [u'Pump', u'Control'], u'Pump Control')]], [[('3.3.4.9.9', [u'Pump', u'Control'], u'Pump Control')]], [('3.3.4.10', [u'Fresh', u'Water', u'System'], u' Fresh Water System')], [('3.3.4.11', [u'Pump', u'Control'], u'Pump Control')], [[('3.3.4.12.12', [u'Compressor', u'Control'], u'Compressor Control')]], [[('3.3.4.13.13', [u'Pump', u'Control'], u'Pump Control')]], [('3.3.4.14', [u'AC', u'plants'], u'AC plants')], [('3.3.4.15', [u'Refrigeration', u'System'], u'Refrigeration System')], [('3.3.4.16', [u'Fuel', u'Oil', u'Centrifuge'], u'Fuel Oil Centrifuge')], [('3.3.4.17', [u'Lube', u'Oil', u'Centrifuge'], u'Lube Oil Centrifuge')], [('3.3.4.18', [u'Sewage', u'Treatment', u'Plant', u'System'], u'Sewage Treatment Plant System')], [('3.3.4.19', [u'Reverse', u'Osmosis', u'Plant', u'System'], u' Reverse Osmosis Plant System')], [('3.3.4.20', [u'Ballast', u'System'], u'Ballast System')], [('3.3.4.21', [u'Automatic', u'Fire', u'Detection', u'System', u'(', u'AFDS', u')'], u'Automatic Fire Detection System (AFDS)')], [('3.3.4.22', [u'Stabilizer', u'System'], u'Stabilizer System')], [('3.3.4.23', [u'Steering', u'Gear', u'System'], u'Steering Gear System')], [('3.3.4.24', [u'Impressed', u'Current', u'Cathode', u'Protection'], u'Impressed Current Cathode Protection')], [('3.3.4.25', [u'Ship', u'\u2019', u's', u'Installed', u'Radiac', u'System', u'(', u'SIRS', u')'], u'Ship\u2019s Installed Radiac System (SIRS)')], [('3.3.4.26', [u'Ship', u'Installed', u'Chemical', u'and', u'Detection', u'System', u'(', u'SICADS', u')'], u'Ship Installed Chemical and Detection System (SICADS)')], [('3.3.4.27', [u'CO2', u'System'], u'CO2 System')], [('3.3.4.28', [u'Tank', u'Level', u'indication', u'system'], u'Tank Level indication system')]], [[('3.3.5.5', [u'Concept', u'overview'], u'Concept overview')], [('3.3.5.2', [u'Architecture', u'of', u'the', u'electrical', u'plant', u'system'], u'Architecture of the electrical plant system')], [('3.3.5.3', [u'Signals'], u'Signals')], [[('3.3.5.4.4', [u'Manual', u'mode'], u'Manual mode')], [('3.3.5.4.2', [u'Assisted', u'mode'], u'Assisted mode')], [('3.3.5.4.3', [u'Auto', u'mode'], u' Auto mode')]], [('3.3.5.5', [u'DA', u'priority', u'selection'], u'DA priority selection')], [[[('3.3.5.6.6.1', [u'Permissive', u'check', u'for', u'Start/Stop', u'of', u'DAs'], u'Permissive check for Start/Stop of DAs')], [('3.3.5.6.6.2', [u'Start/Stop', u'sequence', u'of', u'DAs'], u'Start/Stop sequence of DAs')]], [[[('3.3.5.6.2.2.1', [u'DA', u'supply', u'breaker'], u'DA supply breaker')], [('3.3.5.6.2.2.2', [u'Bus', u'coupler', u'breakers'], u'Bus coupler breakers')], [('3.3.5.6.2.2.3', [u'Interconnector', u'breakers'], u'Interconnector breakers')], [('3.3.5.6.2.2.4', [u'Switchboard', u'feeder', u'breakers'], u'Switchboard feeder breakers')], [('3.3.5.6.2.2.5', [u'EDC', u'incomers'], u'EDC incomers')], [('3.3.5.6.2.2.6', [u'EDC', u'breakers'], u'EDC breakers')], [('3.3.5.6.2.2.7', [u'EDC', u'user', u'breakers'], u'EDC user breakers')]], [[('3.3.5.6.2.2.2', [u'DA', u'supply', u'breaker'], u'DA supply breaker')], [('3.3.5.6.2.2.2', [u'Bus', u'coupler', u'breaker'], u'Bus coupler breaker')], [('3.3.5.6.2.2.3', [u'Interconnector', u'breaker'], u'Interconnector breaker')]], [('3.3.5.6.2.3', [u'Circuit', u'breaker', u'open/close', u'sequence'], u'Circuit breaker open/close sequence')], [('3.3.5.6.2.4', [u'Circuit', u'breaker', u'synchronize', u'sequence'], u'Circuit breaker synchronize sequence')]], [('3.3.5.6.3', [u'Load', u'monitoring'], u'Load monitoring')], [[('3.3.5.6.4.4', [u'System', u'under', u'load', u'detection'], u'System under load detection')], [('3.3.5.6.4.2', [u'System', u'overload', u'detection'], u'System overload detection')]], [[('3.3.5.6.5.5', [u'Detection', u'of', u'switchboard', u'configuration'], u'Detection of switchboard configuration')], [('3.3.5.6.5.2', [u'Source', u'detection'], u'Source detection')], [('3.3.5.6.5.3', [u'DA', u'state', u'detection'], u'DA state detection')]], [('3.3.5.6.6', [u'Maximum', u'Load', u'Setting', u'for', u'Alternators'], u' Maximum Load Setting for  Alternators')], [('3.3.5.6.7', [u'Standby', u'start', u'of', u'DAs'], u'Standby start of DAs')], [('3.3.5.6.8', [u'Active', u'Load', u'Sharing'], u'Active Load Sharing')], [('3.3.5.6.9', [u'Automatic', u'configuration', u'as', u'per', u'selected', u'regime', u'(', u'Automatic', u'switchboard', u'configuration', u')'], u'Automatic configuration as per selected regime(Automatic switchboard configuration)')], [('3.3.5.6.10', [u'Automatic', u'load', u'shedding'], u'Automatic load shedding')], [('3.3.5.6.11', [u'Recovery', u'from', u'load', u'shedding'], u'Recovery from load shedding')], [('3.3.5.6.12', [u'Black', u'out', u'recovery'], u'Black out recovery')], [('3.3.5.6.13', [u'Monitoring', u'of', u'parameters'], u'Monitoring of parameters')], [('3.3.5.6.14', [u'Failure', u'alarms', u'and', u'indications'], u'Failure alarms and indications')]]]], [[('3.2.2', [u'CCTV', u'system'], u'CCTV system')], [('3.2.2', [u'Personal', u'Locating', u'system', u'(', u'PLS', u')'], u'Personal Locating system (PLS)')]]]]
+Converting pdf to text...
+Cleaning text file-
+            removing table of contents, page numbers, footers...
+Cleaning the messy text file...
+Fetching titles...
 Titles fetched...
-Indexing text under: Deck Mounted Consoles
-Indexed text before: Portable Operator Units (POU)
-Indexing text under: Portable Operator Units (POU)
-Indexed text before: Bulkhead Mounted Consoles
-Indexing text under: Bulkhead Mounted Consoles
-Indexed text before: VME Remote Terminal Units
-Indexing text under: VME Remote Terminal Units
-Indexed text before: Network
-Indexing text under: Network
+1.1.1 Hardware Components
+1.1    The IPMS system description and architecture
+
+1.1.1 Hardware Components
+The block diagram shown in Figure 1.1-1 gives the overview of the IPMS system architecture
+
+1.1.1 Hardware Components
+                 Figure 1.1-1 IPMS Block Diagram
+
+1.1.1 Hardware Components
+   1. Consoles, Local Operating Panels (LOPs) & Portable Operating Units (POUs)
+
+1.1.1 Hardware Components
+   2. Panels
+
+1.1.1 Hardware Components
+   3. VRTUs
+
+1.1.1 Hardware Components
+Figure 1.1-1. Each console or VRTU is connected to two control networks. Other than the
+
+1.1.1.1 Deck Mounted Consoles
+1.1.1     Hardware Components
+
+1.1.1.1 Deck Mounted Consoles
+        1.   One single-bay console structure
+
+1.1.1.1 Deck Mounted Consoles
+        2.   One 20-inch high resolution (1600x1200 pixel) color monitor
+
+1.1.1.1 Deck Mounted Consoles
+        3.   Integrated control panels complete with QWERTY type keyboard and trackball
+
+1.1.1.1 Deck Mounted Consoles
+        4.   Internal microprocessor based computer workstation
+
+1.1.1.1 Deck Mounted Consoles
+        5.   Internal cables
+
+1.1.1.1 Deck Mounted Consoles
+    1. Conditions signal and read data from the machinery sensors and actuators.
+
+1.1.1.1 Deck Mounted Consoles
+    2. Sends digitized data to the operator consoles and receives common data from these same
+
+1.1.1.1 Deck Mounted Consoles
+    3. It converts digitized data from the operator consoles to discrete analog and digital control
+
+1.1.1.1 Deck Mounted Consoles
+    4. Runs the control algorithms for the equipment the VRTU is responsible for controlling.
+
+1.1.1.2 Portable Operator Units (POU)
+1.1.1.1      Deck Mounted Consoles
+
+1.1.1.2 Portable Operator Units (POU)
+            1. One single-bay console structure
+
+1.1.1.2 Portable Operator Units (POU)
+            2. One 20-inch high resolution (1600x1200 pixel) color monitor
+
+1.1.1.2 Portable Operator Units (POU)
+            3. Integrated control panels complete with QWERTY type keyboard and trackball
+
+1.1.1.2 Portable Operator Units (POU)
+            4. Internal microprocessor based computer workstation
+
+1.1.1.2 Portable Operator Units (POU)
+            5. Internal cables
+
+1.1.1.3 Bulkhead Mounted Consoles
+1.1.1.2        Portable Operator Units (POU)
+
+1.1.1.4 VME Remote Terminal Units
+1.1.1.3        Bulkhead Mounted Consoles
+
+1.1.1.5 Network
+1.1.1.4        VME Remote Terminal Units
+
+1.1.1.5 Network
+          1.   Enclosure with door
+
+1.1.1.5 Network
+          2.   Central processing unit with embedded diagnostic routines
+
+1.1.1.5 Network
+          3.   Input/output modules depending on the configuration required
+
+1.1.1.5 Network
+          4.   Power supply assembly
+
+1.1.1.5 Network
+          5.   Diagnostic connection for fault detection and maintenance purposes
+
+1.1.1.5 Network
+          1.   Forty-eight channel Digital Input (VDI-48) board
+
+1.1.1.5 Network
+          2.   Twenty-four channel Digital Output (VDOP-24) board
+
+1.1.1.5 Network
+          3.   Forty-eight channel Analog Input (VAI-48) board
+
+1.1.1.5 Network
+          4.   Eight channel Analog Output (VAO-8) board
+
+1.1.1.5 Network
+          5.   Twenty-four low level input (VLLI-24) board
+
+1.1.1.5 Network
+          6.   Four loop, Fire Detection Interface (VFDI-4) board (each loop consisting of 126
+
+1.1.2 Software Components
+1.1.1.5        Network
+
+1.1.2 Software Components
+formed by the switches mounted in VRTUs 1,4,6,7,12,13 & 14. Network 2 is formed by
+
+1.1.2 Software Components
+switches mounted in VRTUs 2,3,5,8,9,10 & 11. The switches are interconnected by two fiber
+
+1.1.2.1 CORE
+1.1.2     Software Components
+
+1.1.2.2 CAPS
+1.1.2.1      CORE
+
+1.1.2.3 OBTS
+1.1.2.2      CAPS
+
+1.1.2.4 HMI
+1.1.2.3    OBTS
+
+1.1.3 Command flow from operator to equipment & feedback
+1.1.2.4    HMI
+
+1.2 Ship Systems Controlled by IPMS
+1.1.3      Command flow from operator to equipment & feedback
+
+2 Human Machine Interface (HMI)
+1.2     Ship Systems Controlled by IPMS
+
+2.1.1 Login
+2.1    Work Sessions
+
+2.1.1.1 Login procedure
+2.1.1 Login
+
+2.1.1.2 Login information
+2.1.1.1  Login procedure
+
+2.1.1.2 Login information
+   1. In the HMI, select file menu  login
+
+2.1.1.2 Login information
+   2. Enter your user name and password
+
+2.1.1.2 Login information
+   3. Click on OK or press Enter
+
+2.1.2 Station in Control
+2.1.1.2    Login information
+
+2.1.2 Station in Control
+                                   Figure 2.1-1 IPMS title bar
+
+2.1.3 OBTS Sessions
+2.1.2   Station in Control
+
+2.1.4 Logout
+2.1.3   OBTS Sessions
+
+2.1.5 Exiting the IPMS
+2.1.4      Logout
+
+2.2 HMI Modules
+2.1.5      Exiting the IPMS
+
+2.2.1 Display Manager
+2.2       HMI Modules
+
+2.2.2 Event Viewer
+2.2.1      Display Manager
+
+2.2.3 Trending
+2.2.2      Event Viewer
+
+2.2.4 Data Logger
+2.2.3      Trending
+
+2.3 Mimic Pages
+2.2.4      Data Logger
+
+2.4 Maintenance Window and RTU BITE display.
+2.3       Mimic Pages
+
+2.5 Incident plotting & key Battle Damage Control System (BDCS) features
+2.4       Maintenance Window and RTU BITE display.
+
+2.6 Index Page
+2.5       Incident plotting & key Battle Damage Control System (BDCS) features
+
+2.6 Index Page
+3.1.4Automatic Sequences Controller (ASC) CSCof this document.
+
+3  Components of IPMS
+2.6   Index Page
+
+3  Components of IPMS
+1.     Find the group it belongs to;
+
+3  Components of IPMS
+2.     Narrow down the search to the system it is part of.
+
+3.1.1 Propulsion system coordinator (PSC) CSC
+    1.    Propulsion System Coordinator (PSC)
+
+3.1.1 Propulsion system coordinator (PSC) CSC
+    2.    Engine Order Telegraph (EOT)
+
+3.1.1 Propulsion system coordinator (PSC) CSC
+    3.    Controllable Pitch Propeller Controller (CPPC)
+
+3.1.1 Propulsion system coordinator (PSC) CSC
+    4.    Automatic Sequences Controller (ASC)
+
+3.1.1 Propulsion system coordinator (PSC) CSC
+    5.    Automated Power Management System (APMS)
+
+3.1.1.1 Propulsion Plant Overview
+3.1.1     Propulsion system coordinator (PSC) CSC
+
+3.1.1.2 Terminology Used
+3.1.1.1     Propulsion Plant Overview
+
+3.1.1.2.1 Propulsion Control Mode
+3.1.1.2     Terminology Used
+
+3.1.1.2.1.1 Local/Remote Control
+3.1.1.2.1     Propulsion Control Mode
+
+3.1.1.2.1.2 Automatic Mode
+3.1.1.2.1.1 Local/Remote Control
+
+3.1.1.2.1.3 Semi-Automatic Mode
+3.1.1.2.1.2 Automatic Mode
+
+3.1.1.2.1.4 Compound Modes
+3.1.1.2.1.3 Semi-Automatic Mode
+
+3.1.1.2.2  IPMS propulsion system control mode
+3.1.1.2.1.4 Compound Modes
+
+3.1.1.2.2.1.1 IPMS Mode
+3.1.1.2.2   IPMS propulsion system control mode
+
+3.1.1.2.2.1.2 Emergency Mode
+3.1.1.2.2.1.1 IPMS Mode
+
+3.1.1.2.3 Combinator mode
+3.1.1.2.2.1.2 Emergency Mode
+
+3.1.1.2.3.1.1 Normal mode
+3.1.1.2.3   Combinator mode
+
+3.1.1.2.3.1.2 Emergency Control Mode
+3.1.1.2.3.1.1 Normal mode
+
+3.1.1.2.4 Propulsion drive mode
+3.1.1.2.3.1.2 Emergency Control Mode
+
+3.1.1.2.5 PCL (Propulsion Control Lever)
+3.1.1.2.4   Propulsion drive mode
+
+3.1.1.2.6 Pitch demand
+3.1.1.2.5    PCL (Propulsion Control Lever)
+
+3.1.1.2.7 Engine speed demand
+3.1.1.2.6    Pitch demand
+
+3.1.1.2.8 Propulsion schedules
+3.1.1.2.7    Engine speed demand
+
+3.1.1.2.9 Propulsion setpoints
+3.1.1.2.8    Propulsion schedules
+
+3.1.1.2.10 Propulsion calculated points
+3.1.1.2.9    Propulsion setpoints
+
+3.1.1.2.11 System wide data (SWD)
+3.1.1.2.10   Propulsion calculated points
+
+3.1.1.3  PSC Functionality
+3.1.1.2.11   System wide data (SWD)
+
+3.1.1.3  PSC Functionality
+2.6-1
+
+3.1.1.3  PSC Functionality
+               Figure 2.6-1 Interface between propulsion local panels and IPMS
+
+3.1.1.3.1 PSC Component Initialization
+3.1.1.3     PSC Functionality
+
+3.1.1.4 Propulsion sequencer CSU (PSCSU)
+3.1.1.3.1    PSC Component Initialization
+
+3.1.1.4.1 ME functions
+3.1.1.4        Propulsion sequencer CSU (PSCSU)
+
+3.1.1.4.1.1 ME State Initialization
+3.1.1.4.1       ME functions
+
+3.1.1.4.1.2 ME control sequences
+3.1.1.4.1.1 ME State Initialization
+
+3.1.1.4.1.2.1 Pre-start function
+3.1.1.4.1.2 ME control sequences
+
+3.1.1.4.1.2.2 Auto-start sequence
+3.1.1.4.1.2.1 Pre-start function
+
+3.1.1.4.1.2.3 Stop sequence
+3.1.1.4.1.2.2 Auto-start sequence
+
+3.1.1.4.1.2.4 Cooldown sequence
+3.1.1.4.1.2.3 Stop sequence
+
+3.1.1.4.1.2.5  Safety stop sequence
+3.1.1.4.1.2.4 Cooldown sequence
+
+3.1.1.4.1.2.6 Remote inhibition
+3.1.1.4.1.2.5 Safety stop sequence
+
+3.1.1.4.1.2.7 Fuel consumption and endurance calculations
+3.1.1.4.1.2.6 Remote inhibition
+
+3.1.1.4.2 Gearbox functions
+3.1.1.4.1.2.7 Fuel consumption and endurance calculations
+
+3.1.1.4.2 Gearbox functions
+coming from IBS was between 11.5 and 12.5 knots. At initialization, the value is taken from a
+
+3.1.1.4.2.1 Motor driven lube oil pump start / stop from IPMS
+3.1.1.4.2   Gearbox functions
+
+3.1.1.4.2.2 Motor driven sea water pump start / stop from IPMS
+3.1.1.4.2.1 Motor driven lube oil pump start / stop from IPMS
+
+3.1.1.4.2.3 Hydraulic coupling engage and disengage sequence
+3.1.1.4.2.2 Motor driven sea water pump start / stop from IPMS
+
+3.1.1.4.2.4 Shaft line turning authorization sequence
+3.1.1.4.2.3 Hydraulic coupling engage and disengage sequence
+
+3.1.1.4.3 Drive mode changeover control
+3.1.1.4.2.4 Shaft line turning authorization sequence
+
+3.1.1.4.3.1 Drive mode changeover logic
+3.1.1.4.3     Drive mode changeover control
+
+3.1.1.4.3.1 Drive mode changeover logic
+section 3.1.1.4.3.2.
+
+3.1.1.4.3.2 Operating mode logic
+3.1.1.4.3.1 Drive mode changeover logic
+
+3.1.1.4.3.3  Changeover sequence
+3.1.1.4.3.2 Operating mode logic
+
+3.1.1.4.3.3  Changeover sequence
+Table 3-1 and Table 3-2 show the attainable drive modes for each shaft. Figure 2.6-2 shows the
+
+3.1.1.4.3.3  Changeover sequence
+ Figure 2.6-2 Block diagram of control of changeover mode for the propulsion plant
+
+3.1.1.4.3.3.1 Shaft mode changeovers
+3.1.1.4.3.3 Changeover sequence
+
+3.1.1.4.3.3.1.1  Shaft mode changeovers permissives
+3.1.1.4.3.3.1 Shaft mode changeovers
+
+3.1.1.4.3.3.1.2  Shaft free to one ME driving the shaft
+3.1.1.4.3.3.1.1 Shaft mode changeovers permissives
+
+3.1.1.4.3.3.1.4  Shaft free to both MEs driving the shaft
+3.1.1.4.3.3.1.2 Shaft free to one ME driving the shaft
+
+3.1.1.4.3.3.1.4  Shaft free to both MEs driving the shaft
+3.1.1.4.3.3.1.3 One ME driving the shaft to shaft free
+
+3.1.1.4.3.3.1.6 Both MEs driving to 1 ME driving the shaft
+3.1.1.4.3.3.1.4 Shaft free to both MEs driving the shaft
+
+3.1.1.4.3.3.1.6 Both MEs driving to 1 ME driving the shaft
+3.1.1.4.3.3.1.5 Both MEs driving the shaft to shaft free
+
+3.1.1.4.3.3.1.7  One ME driving the shaft to both MEs driving the shaft
+3.1.1.4.3.3.1.6 Both MEs driving to 1 ME driving the shaft
+
+3.1.1.4.3.3.2  Combined drive mode changeovers
+3.1.1.4.3.3.1.7 One ME driving the shaft to both MEs driving the shaft
+
+3.1.1.4.3.3.2.1 Shafts free (0 + 0) to 1 ME driving per shaft (1 + 1)
+3.1.1.4.3.3.2 Combined drive mode changeovers
+
+3.1.1.4.3.3.2.3 Shafts free (0 + 0) to 2 ME driving per shaft (2 + 2)
+3.1.1.4.3.3.2.1 Shafts free (0 + 0) to 1 ME driving per shaft (1 + 1)
+
+3.1.1.4.3.3.2.3 Shafts free (0 + 0) to 2 ME driving per shaft (2 + 2)
+3.1.1.4.3.3.2.2 1 ME driving per shaft (1 + 1) to shafts free (0 + 0)
+
+3.1.1.4.3.3.2.5 2 MEs Driving (2 + 2) to 1 ME Driving (1 + 1) Per Shaft
+3.1.1.4.3.3.2.3 Shafts free (0 + 0) to 2 ME driving per shaft (2 + 2)
+
+3.1.1.4.3.3.2.5 2 MEs Driving (2 + 2) to 1 ME Driving (1 + 1) Per Shaft
+3.1.1.4.3.3.2.4 2 MEs Driving Per Shaft (2 + 2) to Shafts Free (0 + 0)
+
+3.1.1.5  Propulsion controller CSU (PSCSU)
+3.1.1.4.3.3.2.5 2 MEs Driving (2 + 2) to 1 ME Driving (1 + 1) Per Shaft
+
+3.1.1.5  Propulsion controller CSU (PSCSU)
+3.1.1.4.3.3.2.6 1 ME Driving (1 + 1) to 2 MEs Driving (2 + 2) Per Shaft
+
+3.1.1.5.1 Remote automatic propulsion control
+3.1.1.5     Propulsion controller CSU (PSCSU)
+
+3.1.1.5.1.1 Propulsion main engine remote automatic control
+3.1.1.5.1      Remote automatic propulsion control
+
+3.1.1.5.1.1 Propulsion main engine remote automatic control
+Figure 2.6-4 shows each of these functions as a step in the propulsion control algorithm,
+
+3.1.1.5.1.1.1 Schedule ME speed demand
+3.1.1.5.1.1 Propulsion main engine remote automatic control
+
+3.1.1.5.1.1.2 Schedule shaft speed demand
+3.1.1.5.1.1.1 Schedule ME speed demand
+
+3.1.1.5.1.1.3 ME transient control (Pitch/PCL opposite sense)
+3.1.1.5.1.1.2 Schedule shaft speed demand
+
+3.1.1.5.1.1.4 Changeover demand limits
+3.1.1.5.1.1.3 ME transient control (Pitch/PCL opposite sense)
+
+3.1.1.5.1.1.5 ME demand rate limit control
+3.1.1.5.1.1.4 Changeover demand limits
+
+3.1.1.5.1.1.6 ME speed control
+3.1.1.5.1.1.5 ME demand rate limit control
+
+3.1.1.5.1.1.7 Output ME speed demand and rate to the VRTU
+3.1.1.5.1.1.6 ME speed control
+
+3.1.1.5.1.2  Propeller pitch remote automatic control
+3.1.1.5.1.1.7 Output ME speed demand and rate to the VRTU
+
+3.1.1.5.1.2.1 ME Fuel Rack error Function
+3.1.1.5.1.2 Propeller pitch remote automatic control
+
+3.1.1.5.1.2.2 Schedule pitch demand
+3.1.1.5.1.2.1 ME Fuel Rack error Function
+
+3.1.1.5.1.2.3 Shaft power tendency function
+3.1.1.5.1.2.2 Schedule pitch demand
+
+3.1.1.5.1.2.3 Shaft power tendency function
+the limit relationships stated below are algebraic, e.g. 0 is greater than -3.
+
+3.1.1.5.1.2.4 ME load control
+3.1.1.5.1.2.3 Shaft power tendency function
+
+3.1.1.5.1.2.5 Load stability control
+3.1.1.5.1.2.4 ME load control
+
+3.1.1.5.1.2.6 Pitch set to zero
+3.1.1.5.1.2.5 Load stability control
+
+3.1.1.5.1.2.7  Load reduction control
+3.1.1.5.1.2.6 Pitch set to zero
+
+3.1.1.5.1.2.8 Pitch rate limit control
+3.1.1.5.1.2.7 Load reduction control
+
+3.1.1.5.1.2.8 Pitch rate limit control
+The Figure 2.6-3 explains this concept.
+
+3.1.1.5.1.2.8 Pitch rate limit control
+                              Figure 2.6-3 Load Reduction Control
+
+3.1.1.5.1.2.9 Output pitch demand and pitch rate to CPPC CSC
+3.1.1.5.1.2.8 Pitch rate limit control
+
+3.1.1.5.2 Remote semi-automatic propulsion control
+3.1.1.5.1.2.9 Output pitch demand and pitch rate to CPPC CSC
+
+3.1.1.5.2.1 Propulsion main engine remote semi-automatic control
+3.1.1.5.2   Remote semi-automatic propulsion control
+
+3.1.1.5.2.1.1 Schedule ME speed demand
+3.1.1.5.2.1 Propulsion main engine remote semi-automatic control
+
+3.1.1.5.2.1.2 ME transient control (Pitch/PCL opposite sense)
+3.1.1.5.2.1.1 Schedule ME speed demand
+
+3.1.1.5.2.1.3 Changeover demand limits
+3.1.1.5.2.1.2 ME transient control (Pitch/PCL opposite sense)
+
+3.1.1.5.2.1.4 ME demand rate limit control
+3.1.1.5.2.1.3 Changeover demand limits
+
+3.1.1.5.2.1.5 ME speed control
+3.1.1.5.2.1.4 ME demand rate limit control
+
+3.1.1.5.2.1.6 Output ME speed demand and rate to the VRTU
+3.1.1.5.2.1.5 ME speed control
+
+3.1.1.5.2.2 Propeller pitch remote semi-automatic control
+3.1.1.5.2.1.6 Output ME speed demand and rate to the VRTU
+
+3.1.1.5.2.2.1 Schedule pitch demand
+3.1.1.5.2.2 Propeller pitch remote semi-automatic control
+
+3.1.1.5.2.2.2 ME load control
+3.1.1.5.2.2.1 Schedule pitch demand
+
+3.1.1.5.2.2.3 Load stability control
+3.1.1.5.2.2.2 ME load control
+
+3.1.1.5.2.2.4 Pitch set to zero
+3.1.1.5.2.2.3 Load stability control
+
+3.1.1.5.2.2.5 Pitch rate limit control
+3.1.1.5.2.2.4 Pitch set to zero
+
+3.1.1.5.2.2.6 Load reduction control
+3.1.1.5.2.2.5 Pitch rate limit control
+
+3.1.1.5.2.2.7 Output pitch demand and pitch rate to CPPC CSC
+3.1.1.5.2.2.6 Load reduction control
+
+3.1.2 Engine Order Telegraph (EOT) CSC
+3.1.1.5.2.2.7 Output pitch demand and pitch rate to CPPC CSC
+
+3.1.2 Engine Order Telegraph (EOT) CSC
+                                                                                         Figure 2.6-4 PSC Controller Functions
+
+3.1.2.1 Engine Order Telegraph (EOT) Order and Thrust SIC
+3.1.2   Engine Order Telegraph (EOT) CSC
+
+3.1.2.1.1 EOT Levers
+3.1.2.1     Engine Order Telegraph (EOT) Order and Thrust SIC
+
+3.1.2.1.1 EOT Levers
+2.6-5
+
+3.1.2.1.1 EOT Levers
+                     Figure 2.6-5 EOT diagram showing the priorities
+
+3.1.2.1.2 Software EOT
+3.1.2.1.1   EOT Levers
+
+3.1.2.1.2 Software EOT
+Figure 2.6-6 shows the EOT data network.
+
+3.1.2.1.2 Software EOT
+                                    Figure 2.6-6 EOT data network
+
+3.1.2.1.3 SIC Transfer
+3.1.2.1.2   Software EOT
+
+3.1.2.1.3 SIC Transfer
+1. SIC ORDER
+
+3.1.2.1.3 SIC Transfer
+2. SIC THRUST
+
+3.1.2.1.3 SIC Transfer
+3. Take SIC ORDER
+
+3.1.2.1.3 SIC Transfer
+4. Take SIC THRUST
+
+3.1.2.1.3.1 SIC Transfer between Two EOT
+3.1.2.1.3   SIC Transfer
+
+3.1.2.1.3.2 SIC Transfer from EOT to HMI
+3.1.2.1.3.1 SIC Transfer between Two EOT
+
+3.1.2.2 EOT Calculated Points
+3.1.2.1.3.2 SIC Transfer from EOT to HMI
+
+3.1.2.2 EOT Calculated Points
+3.1.2.1.3.3 SIC Transfer from HMI to EOT
+
+3.1.2.3 Lever Processing
+3.1.2.2     EOT Calculated Points
+
+3.1.2.4 HMI EOT Processing
+3.1.2.3     Lever Processing
+
+3.1.2.4 HMI EOT Processing
+levers for 3 EOTs) should be set up to ensure 5.0, 0.0, and +10.0 can always be achieved.
+
+3.1.3  Controllable Pitch Propeller Controller (CPPC) CSC
+3.1.2.4     HMI EOT Processing
+
+3.1.3  Controllable Pitch Propeller Controller (CPPC) CSC
+The 2 setpoints, PCL_COARSE and PCL_FINE will normally be set to 1.0 and 0.1 respectively.
+
+3.1.3.1 CPP Proportional Valve Control
+3.1.3     Controllable Pitch Propeller Controller (CPPC) CSC
+
+3.1.3.2 Hydraulic Pump Control
+3.1.3.1     CPP Proportional Valve Control
+
+3.1.3.2 Hydraulic Pump Control
+                              Figure 2.6-7 CPPC Closed Loop Control
+
+3.1.3.2 Hydraulic Pump Control
+                      CPPC component (see Figure 2.6-7). The CPPC uses position error to
+
+3.1.3.3 Shaft speed<60 rpm command
+3.1.3.2     Hydraulic Pump Control
+
+3.1.3.4 CPP Control System Failure
+3.1.3.3     Shaft speed<60 rpm command
+
+3.1.3.5 CPP Pitch Feedback Failure
+3.1.3.4     CPP Control System Failure
+
+3.1.3.6 Shaft brake control
+3.1.3.5     CPP Pitch Feedback Failure
+
+3.1.4  Automatic Sequences Controller (ASC) CSC
+3.1.3.6     Shaft brake control
+
+3.1.4.1 Fire Main System
+3.1.4     Automatic Sequences Controller (ASC) CSC
+
+3.1.4.1 Fire Main System
+          1. Firemain System
+
+3.1.4.1 Fire Main System
+          2. NBCD System
+
+3.1.4.1 Fire Main System
+          3. Ventilation System
+
+3.1.4.1 Fire Main System
+          4. Salvage System
+
+3.1.4.1 Fire Main System
+          5. Fuel System
+
+3.1.4.1 Fire Main System
+          6. Lube Oil System
+
+3.1.4.1 Fire Main System
+          7. Cooling Water System
+
+3.1.4.1 Fire Main System
+          8. Aviation Fuel System
+
+3.1.4.1 Fire Main System
+          9. Bilge System
+
+3.1.4.1 Fire Main System
+          11. Compressed Air System
+
+3.1.4.1 Fire Main System
+          12. Oily Water Separator System
+
+3.1.4.1 Fire Main System
+          13. AC Plants
+
+3.1.4.1 Fire Main System
+          14. Refrigeration System
+
+3.1.4.1 Fire Main System
+          15. Fuel Oil Centrifuge
+
+3.1.4.1 Fire Main System
+          16. Lube Oil Centrifuge
+
+3.1.4.1 Fire Main System
+          17. Sewage Treatment Plant
+
+3.1.4.1 Fire Main System
+          18. Reverse Osmosis Plant
+
+3.1.4.1 Fire Main System
+          19. Ballast System
+
+3.1.4.1 Fire Main System
+          21. Stabilizer System
+
+3.1.4.1 Fire Main System
+          22. Steering Gear System
+
+3.1.4.1 Fire Main System
+          23. Impressed Current Cathode Protection
+
+3.1.4.1 Fire Main System
+          24. Ships Installed Radiac System (SIRS)
+
+3.1.4.1 Fire Main System
+          25. Ship Installed Chemical and Detection System (SICADS)
+
+3.1.4.1 Fire Main System
+          26. CO2 System
+
+3.1.4.1 Fire Main System
+          27. Tank Level indication system
+
+3.1.4.1.1 Modes of Operation
+3.1.4.1     Fire Main System
+
+3.1.4.1.1 Modes of Operation
+the availability of the pumps.The highest priority is 1 and the lowest priority is 5.
+
+3.1.4.1.1.1 Auto Mode
+3.1.4.1.1    Modes of Operation
+
+3.1.4.1.1.1.1 Automatic sequence based on firezone isolation valves
+3.1.4.1.1.1 Auto Mode
+
+3.1.4.1.1.1.1 Automatic sequence based on firezone isolation valves
+main, the switching order is cyclic as shown in Fig.3.4-7 and pump will operate for 8 hours
+
+3.1.4.1.1.1.1 Automatic sequence based on firezone isolation valves
+                      Figure 2.6-8 Firemain normal condition sequence
+
+3.1.4.1.1.1.1 Automatic sequence based on firezone isolation valves
+3-9. If the firemain system is in auto mode and more than one isolation valves are opened then
+
+3.1.4.1.1.1.1.1 All isolation valves are opened
+3.1.4.1.1.1.1 Automatic sequence based on firezone isolation valves
+
+3.1.4.1.1.1.1.2 Zone 1 Isolated
+3.1.4.1.1.1.1.1 All isolation valves are opened
+
+3.1.4.1.1.1.1.3 Zone 1, 2 & ZONE 3, 4 Isolated
+3.1.4.1.1.1.1.2 Zone 1 Isolated
+
+3.1.4.1.1.1.1.4 Zone 4 is Isolated
+3.1.4.1.1.1.1.3 Zone 1, 2 & ZONE 3, 4 Isolated
+
+3.1.4.1.1.2 Manual Mode
+3.1.4.1.1.1.1.4 Zone 4 is Isolated
+
+3.1.4.1.1.3 Panel Mode
+3.1.4.1.1.2 Manual Mode
+
+3.1.4.1.1.3 Panel Mode
+Similar signals are used for the pumps 2 to 5.
+
+3.1.4.1.1.3.1 Pump Control
+3.1.4.1.1.3 Panel Mode
+
+3.1.4.2  NBCD State
+3.1.4.1.1.3.1 Pump Control
+
+3.1.4.2.1.1 Water tight state
+3.1.4.2     NBCD State
+
+3.1.4.2.1.2 Gas tight state
+3.1.4.2.1.1 Water tight state
+
+3.1.4.3 Ventilation System
+3.1.4.2.1.2 Gas tight state
+
+3.1.4.3 Ventilation System
+          DO000220      G48 POST-11(DOOR)                            19.5-DK1-P
+
+3.1.4.3 Ventilation System
+          DO000230      G49 POST-12(DOOR)                            19.5-DK1-S
+
+3.1.4.3 Ventilation System
+          DO000340      G3 AIR LOCK(DOOR)                            33.5-DK2-P
+
+3.1.4.3 Ventilation System
+     DO000380    G39 AIR LOCK(DOOR)          33.5-DK01-P
+
+3.1.4.3 Ventilation System
+     DO000390    G64 AIR LOCK(DOOR)          33.5-DK01-P
+
+3.1.4.3 Ventilation System
+     DO000450    G69 AIR LOCK(DOOR)          24.5-DK3-P
+
+3.1.4.3 Ventilation System
+     DO000460    G9 AIR LOCK(DOOR)           52.5-DK2-S
+
+3.1.4.3 Ventilation System
+     DO000480    G11 AIR LOCK(DOOR)          75.5-DK2-P
+
+3.1.4.3 Ventilation System
+            DO000550      H17 PLATFORM(FWD ER)(HATCH)                  42.5-43.5-DK2-P
+
+3.1.4.3 Ventilation System
+            DO000610      H50 PASSAGE WAY(HATCH)                       9.5-10.5-DK1-P
+
+3.1.4.3.1 Ventilation system control
+3.1.4.3        Ventilation System
+
+3.1.4.3.1.1  Fire zones
+3.1.4.3.1        Ventilation system control
+
+3.1.4.3.1.2 Sections
+3.1.4.3.1.1 Fire zones
+
+3.1.4.3.1.3 Complete
+3.1.4.3.1.2 Sections
+
+3.1.4.4  Salvage System
+3.1.4.3.1.3 Complete
+
+3.1.4.4.1 Modes of Operation
+3.1.4.4     Salvage System
+
+3.1.4.4.1.1 Auto Mode
+3.1.4.4.1    Modes of Operation
+
+3.1.4.4.1.2 Manual Mode
+3.1.4.4.1.1 Auto Mode
+
+3.1.4.4.1.3 Panel mode
+3.1.4.4.1.2 Manual Mode
+
+3.1.4.4.1.3 Panel mode
+Similar signals are used for the pumps 2 to 4.
+
+3.1.4.4.1.3 Panel mode
+Similar signals are used for the discharge valves 2 to 4. Similar signals are used for the suction
+
+3.1.4.4.1.3 Panel mode
+valves 1 to 8.
+
+3.1.4.5  Fuel System
+3.1.4.4.1.3 Panel mode
+
+3.1.4.5.1 Pump Control
+3.1.4.5     Fuel System
+
+3.1.4.5.1 Pump Control
+3-19.
+
+3.1.4.5.1 Pump Control
+Similar signals are used for the pump 2.
+
+3.1.4.6  Lube Oil System
+3.1.4.5.1    Pump Control
+
+3.1.4.6.1 Pump Control
+3.1.4.6     Lube Oil System
+
+3.1.4.7  Cooling water system
+3.1.4.6.1    Pump Control
+
+3.1.4.7  Cooling water system
+Similar signals are used for the pump 2.
+
+3.1.4.7.1 Pump Control
+3.1.4.7   Cooling water system
+
+3.1.4.8  Aviation Fuel System
+3.1.4.7.1   Pump Control
+
+3.1.4.8  Aviation Fuel System
+Similar signals are used for the pump 2.
+
+3.1.4.8.1 Pump Control
+3.1.4.8      Aviation Fuel System
+
+3.1.4.9  Bilge System
+3.1.4.8.1      Pump Control
+
+3.1.4.9  Bilge System
+Similar signals are used for the heli-fuelling pump 2.
+
+3.1.4.9.1 Pump Control
+3.1.4.9     Bilge System
+
+3.1.4.10  Fresh Water System
+3.1.4.9.1      Pump Control
+
+3.1.4.10  Fresh Water System
+Similar signals are used for the pump 2 to 3.
+
+3.1.4.11 Pump Control
+3.1.4.10 Fresh Water System
+
+3.1.4.12  Compressed Air System
+3.1.4.11 Pump Control
+
+3.1.4.12  Compressed Air System
+Similar signals are used for the pump 2 to 3.
+
+3.1.4.12.1 Compressor Control
+3.1.4.12 Compressed Air System
+
+3.1.4.13 Oily Water Separator
+3.1.4.12.1   Compressor Control
+
+3.1.4.13.1 Pump Control
+3.1.4.13 Oily Water Separator
+
+3.1.4.14 AC plants
+3.1.4.13.1   Pump Control
+
+3.1.4.14 AC plants
+Similar signals are used for the pump 2.
+
+3.1.4.15 Refrigeration System
+3.1.4.14 AC plants
+
+3.1.4.15 Refrigeration System
+Similar signals are used for the AC plants 2 to 3.
+
+3.1.4.16 Fuel Oil Centrifuge
+3.1.4.15 Refrigeration System
+
+3.1.4.17 Lube Oil Centrifuge
+3.1.4.16 Fuel Oil Centrifuge
+
+3.1.4.17 Lube Oil Centrifuge
+Similar signals are used for the pump 2.
+
+3.1.4.18 Sewage Treatment Plant System
+3.1.4.17 Lube Oil Centrifuge
+
+3.1.4.18 Sewage Treatment Plant System
+Similar signals are used for the pump 2 to 4.
+
+3.1.4.19  Reverse Osmosis Plant System
+3.1.4.18 Sewage Treatment Plant System
+
+3.1.4.19  Reverse Osmosis Plant System
+Similar signals are used for the STP-2.
+
+3.1.4.20 Ballast System
+3.1.4.19 Reverse Osmosis Plant System
+
+3.1.4.20 Ballast System
+Similar signals are used for the R.O plant 2.
+
+3.1.4.21 Automatic Fire Detection System (AFDS)
+3.1.4.20 Ballast System
+
+3.1.4.22 Stabilizer System
+3.1.4.21 Automatic Fire Detection System (AFDS)
+
+3.1.4.23 Steering Gear System
+3.1.4.22 Stabilizer System
+
+3.1.4.24 Impressed Current Cathode Protection
+3.1.4.23 Steering Gear System
+
+3.1.4.25 Ships Installed Radiac System (SIRS)
+3.1.4.24 Impressed Current Cathode Protection
+
+3.1.4.26 Ship Installed Chemical and Detection System (SICADS)
+3.1.4.25 Ships Installed Radiac System (SIRS)
+
+3.1.4.27 CO2 System
+3.1.4.26 Ship Installed Chemical and Detection System (SICADS)
+
+3.1.4.28 Tank Level indication system
+3.1.4.27 CO2 System
+
+3.1.5  Automated Power Management System (APMS) CSC
+3.1.4.28 Tank Level indication system
+
+3.1.5.1 Concept overview
+3.1.5     Automated Power Management System (APMS) CSC
+
+3.1.5.2 Architecture of the electrical plant system
+3.1.5.1     Concept overview
+
+3.1.5.3 Signals
+3.1.5.2     Architecture of the electrical plant system
+
+3.1.5.4 Modes of operation
+3.1.5.3     Signals
+
+3.1.5.4.1 Manual mode
+3.1.5.4     Modes of operation
+
+3.1.5.4.2 Assisted mode
+3.1.5.4.1      Manual mode
+
+3.1.5.4.3  Auto mode
+3.1.5.4.2      Assisted mode
+
+3.1.5.5 DA priority selection
+3.1.5.4.3      Auto mode
+
+3.1.5.6 Automated Power Management system functions
+3.1.5.5     DA priority selection
+
+3.1.5.6.1 DA control
+3.1.5.6     Automated Power Management system functions
+
+3.1.5.6.1.1 Permissive check for Start/Stop of DAs
+3.1.5.6.1      DA control
+
+3.1.5.6.1.2 Start/Stop sequence of DAs
+3.1.5.6.1.1 Permissive check for Start/Stop of DAs
+
+3.1.5.6.1.2 Start/Stop sequence of DAs
+         Lube oil temp < 125.
+
+3.1.5.6.1.2 Start/Stop sequence of DAs
+         Cooling Water temp engine outlet < 96.
+
+3.1.5.6.2 Circuit breaker control
+3.1.5.6.1.2 Start/Stop sequence of DAs
+
+3.1.5.6.2.1 Permissive check for OPEN/CLOSE Command
+3.1.5.6.2   Circuit breaker control
+
+3.1.5.6.2.1.1 DA supply breaker
+3.1.5.6.2.1 Permissive check for OPEN/CLOSE Command
+
+3.1.5.6.2.1.2 Bus coupler breakers
+3.1.5.6.2.1.1 DA supply breaker
+
+3.1.5.6.2.1.3 Interconnector breakers
+3.1.5.6.2.1.2 Bus coupler breakers
+
+3.1.5.6.2.1.4 Switchboard feeder breakers
+3.1.5.6.2.1.3 Interconnector breakers
+
+3.1.5.6.2.1.5 EDC incomers
+3.1.5.6.2.1.4 Switchboard feeder breakers
+
+3.1.5.6.2.1.6 EDC breakers
+3.1.5.6.2.1.5 EDC incomers
+
+3.1.5.6.2.1.7 EDC user breakers
+3.1.5.6.2.1.6 EDC breakers
+
+3.1.5.6.2.2 Permissive check for Synchronize for Circuit Breakers
+3.1.5.6.2.1.7 EDC user breakers
+
+3.1.5.6.2.2.1 DA supply breaker
+3.1.5.6.2.2 Permissive check for Synchronize for Circuit Breakers
+
+3.1.5.6.2.2.2 Bus coupler breaker
+3.1.5.6.2.2.1 DA supply breaker
+
+3.1.5.6.2.2.3 Interconnector breaker
+3.1.5.6.2.2.2 Bus coupler breaker
+
+3.1.5.6.2.3 Circuit breaker open/close sequence
+3.1.5.6.2.2.3 Interconnector breaker
+
+3.1.5.6.2.4 Circuit breaker synchronize sequence
+3.1.5.6.2.3 Circuit breaker open/close sequence
+
+3.1.5.6.3 Load monitoring
+3.1.5.6.2.4 Circuit breaker synchronize sequence
+
+3.1.5.6.4 System underload and overload detection
+3.1.5.6.3   Load monitoring
+
+3.1.5.6.4.1 System under load detection
+3.1.5.6.4   System underload and overload detection
+
+3.1.5.6.4.2 System overload detection
+3.1.5.6.4.1 System under load detection
+
+3.1.5.6.5 System configuration
+3.1.5.6.4.2 System overload detection
+
+3.1.5.6.5.1 Detection of switchboard configuration
+3.1.5.6.5   System configuration
+
+3.1.5.6.5.2 Source detection
+3.1.5.6.5.1 Detection of switchboard configuration
+
+3.1.5.6.5.3 DA state detection
+3.1.5.6.5.2 Source detection
+
+3.1.5.6.6  Maximum Load Setting for  Alternators
+3.1.5.6.5.3 DA state detection
+
+3.1.5.6.7 Standby start of DAs
+3.1.5.6.6      Maximum Load Setting for Alternators
+
+3.1.5.6.8 Active Load Sharing
+3.1.5.6.7    Standby start of DAs
+
+3.1.5.6.8 Active Load Sharing
+   1. Ring mode operation:
+
+3.1.5.6.8 Active Load Sharing
+   2. Split operation (fwd/aft or port/stbd):
+
+3.1.5.6.9 Automatic configuration as per selected regime(Automatic switchboard configuration)
+3.1.5.6.8    Active Load Sharing
+
+3.1.5.6.9 Automatic configuration as per selected regime(Automatic switchboard configuration)
+Load on 500kW DA = {(500) / (500+1000)} * 700 = (233.33 +/- 20) kW.
+
+3.1.5.6.9 Automatic configuration as per selected regime(Automatic switchboard configuration)
+Load on 1000kW DA = {(1000) / (500+1000)} * 700 = (466.67 -/+ 20) kW.
+
+3.1.5.6.10 Automatic load shedding
+3.1.5.6.9    Automatic configuration as per selected regime(Automatic switchboard
+
+3.1.5.6.11 Recovery from load shedding
+3.1.5.6.10   Automatic load shedding
+
+3.1.5.6.12 Black out recovery
+3.1.5.6.11   Recovery from load shedding
+
+3.1.5.6.13 Monitoring of parameters
+3.1.5.6.12   Black out recovery
+
+3.1.5.6.14 Failure alarms and indications
+3.1.5.6.13   Monitoring of parameters
+
+3.2 Other Systems Interfaced with IPMS
+3.1.5.6.14   Failure alarms and indications
+
+3.2.1 CCTV system
+3.2     Other Systems Interfaced with IPMS
+
+3.2.2 Personal Locating system (PLS)
+3.2.1    CCTV system
+
+3.2.2 Personal Locating system (PLS)
+diagram in Figure 3.2-1 below. User interface is via IPMS operator stations (consoles and
+
+3.2.2 Personal Locating system (PLS)
+                        Figure 3.2-1 PROJECT CCTV Camera System Block diagram
+
+EOF -102342345*&$#29
+3.2.2    Personal Locating system (PLS)
+
+EOF -102342345*&$#29
+                     Figure 3.2-2 Block Diagram of Personnel Locator System (PLS)
+
+EOF -102342345*&$#29
+user application software. The RTLS uses existing wireless Wi-Fi (Ethernet 802.11a/b/g/n)
+
+EOF -102342345*&$#29
+   A location survey tool for recording reference data during the deployment phase. 802.11
+
+Text indexed by title...
+Text indexed by title in JSON format in the file: ../ipms.json
