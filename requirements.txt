@@ -2,4 +2,5 @@ pdfminer
 PyPDF2
 nltk
 bs4
-
+fuzzywuzzy
+python-Levenshtein

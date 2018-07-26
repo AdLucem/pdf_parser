@@ -1,22 +1,46 @@
 # pdf_parser
-A library to parse a PDF to certain text-processing-amenable formats and also clean the resulting data.
+A library to convert a single PDF file to a set of indexed, searchable and processable documents.
+
+Indexes content by headings.
+
+# Use Cases and Assumptions
+
+- This is meant to run on technical, structured documents, like, say, user manuals. 
+- We assume the pdf file has an associated table of contents, that is extracted using py2pdf.
+- natural language is a scourge upon planet earth and should be eradicated. all hail our formal-language-speaking robot overlords
+
+## Setup
+
+To set up the environment and dependencies needed:
+
+(1) Set up a virtualenv for dependencies (this is recommended to prevent clashing dependencies/versions). From within the `pdf-parser` directory:
+
+```bash
+virtualenv --python=/usr/bin/python2.7 venv
+source venv/bin/activate
+```
+
+(2) Install dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+(3) Install nltk resources. From within the python interpreter/shell:
+
+```python 
+>>> import nltk
+>>> nltk.download('punkt')
+```
 
 ## Usage:
 
-(1) Convert the PDF you want to process to HTML. There are lots of online libraries for this, use one.
-
-(2) The regex to identify heading-lines (identifies any and all headings, regardless of hierarchy) is on line 16 of `run.sh` , in the statement `grep -E '[>][1-9][.]?([1-9][.]){0,6}[1-9]?'` . Replace it with your own regex that identifies headings
-
-
-(3) Within the pdf-parser directory, run this:
+- `lines_to_be_removed` :: path to a text file containing any lines (such as headers, footers, etc) that are to be removed from the pdf file while cleaning it. The file should be a list of strings, each string being a line, each string on a separate line.
 
 ```bash
-./run.sh <path_to_html_version_of_pdf>
+./run.sh <path to pdf file> <lines_to_be_removed>
 ```
 
 ## TODO
 
-- Write function to combine bulleted points into a single span of text under the original heading. Refer to:
-
-`split_text_by_title.integrate_bullet_points(data)`
-
+- Provision for multiple files/related files. (A little difficult to do right now because I don't have a working example of the kind of connected and multiple-document documentation I need.)
