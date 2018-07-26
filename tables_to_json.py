@@ -1,5 +1,5 @@
 """Extract all tables from an html file to a json object
-Note: this accounts for even extremely large HTML files"""
+Note: this accounts even for large HTML files"""
 
 import re
 
