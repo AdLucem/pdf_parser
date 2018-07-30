@@ -5,9 +5,8 @@ Indexes content by headings.
 
 # Use Cases and Assumptions
 
-- This is meant to run on technical, structured documents, like, say, user manuals. 
+- This is meant to run on documents with a specific kind of structure, like, say, user manuals or research papers. 
 - We assume the pdf file has an associated table of contents, that is extracted using py2pdf.
-- natural language is a scourge upon planet earth and should be eradicated. all hail our formal-language-speaking robot overlords
 
 ## Setup
 

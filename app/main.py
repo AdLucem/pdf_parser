@@ -19,9 +19,9 @@ def pipeline():
         lines_to_remove = sys.argv[2]
 
         text_file = pdf_to_text(pdf_file)
-        cleaned_file = clean(text_file, pdf_file, lines_to_remove)
-        index_root = index_text_by_title(cleaned_file, pdf_file)
-        return index_root
+        #cleaned_file = clean(text_file, pdf_file, lines_to_remove)
+        #index_root = index_text_by_title(cleaned_file, pdf_file)
+        return text_file
 
 
 # driver function for the command line implementation
